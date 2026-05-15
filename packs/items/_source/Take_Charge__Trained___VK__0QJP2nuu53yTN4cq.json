@@ -1,0 +1,66 @@
+{
+  "folder": "o30y42eaoRcAa2Dj",
+  "img": "systems/pf2e/icons/default-icons/campaignFeature.svg",
+  "name": "Take Charge (Trained) (VK)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "campaign": "kingmaker",
+    "category": "kingdom-activity",
+    "description": {
+      "value": "<p>You spend some time getting directly involved in helping your kindom. Choose a skill that your Kingdom is at least trained in, then attempt a basic check. You can never use the same skill for this activity twice in the same Kingdom turn.</p><p>@Check[agriculture|dc:resolve(@kingdom.control.dc)]<br>@Check[arts|dc:resolve(@kingdom.control.dc)]<br>@Check[boating|dc:resolve(@kingdom.control.dc)]<br>@Check[defense|dc:resolve(@kingdom.control.dc)]<br>@Check[engineering|dc:resolve(@kingdom.control.dc)]<br>@Check[exploration|dc:resolve(@kingdom.control.dc)]<br>@Check[folklore|dc:resolve(@kingdom.control.dc)]<br>@Check[industry|dc:resolve(@kingdom.control.dc)]<br>@Check[intrigue|dc:resolve(@kingdom.control.dc)]<br>@Check[magic|dc:resolve(@kingdom.control.dc)]<br>@Check[politics|dc:resolve(@kingdom.control.dc)]<br>@Check[scholarship|dc:resolve(@kingdom.control.dc)]<br>@Check[statecraft|dc:resolve(@kingdom.control.dc)]<br>@Check[trade|dc:resolve(@kingdom.control.dc)]<br>@Check[treachery|dc:resolve(@kingdom.control.dc)]<br>@Check[wilderness|dc:resolve(@kingdom.control.dc)]</p><hr><p><strong>Critical Success</strong> Gain 1 RP. In addition you get a +1 Circumstance Bonus to the next Check you make this turn with the chosen skill.</p><p><strong>Success</strong> Gain 1 RP.</p><p><strong>Failure</strong> You fail to generate RP.</p><p><strong>Critical Failure</strong> You take a -1 Circumstance Penalty to the next Check you make this turn with the chosen  skill.</p>",
+      "gm": ""
+    },
+    "location": null,
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Kingmaker",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "value": [
+        "downtime",
+        "leadership"
+      ],
+      "otherTags": []
+    },
+    "slug": "take-charge",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 1
+    }
+  },
+  "type": "campaignFeature",
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025824,
+    "modifiedTime": 1778781025832,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "0QJP2nuu53yTN4cq",
+  "ownership": {
+    "default": 0,
+    "HRPzo3EuvoLGm5jG": 3
+  },
+  "sort": 0,
+  "_key": "!items!0QJP2nuu53yTN4cq"
+}

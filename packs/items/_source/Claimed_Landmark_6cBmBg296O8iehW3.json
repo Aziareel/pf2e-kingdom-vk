@@ -1,0 +1,87 @@
+{
+  "name": "Claimed Landmark",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "14.361",
+        "system": "8.1.2"
+      }
+    },
+    "description": {
+      "value": "",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "label": "Claimed Landmark",
+        "selector": "economy-based",
+        "value": 2,
+        "type": "circumstance"
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Claimed Landmark",
+        "selector": "culture-based",
+        "value": 2,
+        "type": "circumstance"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "systems/pf2e/icons/spells/discern-location.webp",
+  "folder": "O10p5PnsmLcF6N6r",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025827,
+    "modifiedTime": 1778781025833,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "6cBmBg296O8iehW3",
+  "ownership": {
+    "default": 0,
+    "HRPzo3EuvoLGm5jG": 3
+  },
+  "sort": 0,
+  "_key": "!items!6cBmBg296O8iehW3"
+}

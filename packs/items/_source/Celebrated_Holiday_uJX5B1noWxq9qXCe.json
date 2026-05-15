@@ -1,0 +1,138 @@
+{
+  "name": "Celebrated Holiday",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "14.361",
+        "system": "8.1.2"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Critical Success</strong> Your holidays are a delight to your people. The event is expensive, but incidental income from the celebrants covers the cost. You gain a +2 circumstance bonus to Loyalty-based checks until the end of your next Kingdom turn.</p><p><strong>Success</strong> Your holidays are a success, but they're also expensive. You gain a +1 circumstance bonus to Loyalty-based checks until the end of your next Kingdom turn. Immediately roll 1 Resource Die and spend RP equal to the result. If you can't afford this cost, treat this result as a Critical Failure instead.</p><p><strong>Failure</strong> The holiday passes with little enthusiasm, but is still expensive. Immediately roll 1 Resource Die and spend RP equal to the result. If you can't afford this cost, treat this result as a Critical Failure instead.</p><p><strong>Critical Failure</strong> Your festival days are poorly organized, and the citizens actively mock your failed attempt to celebrate. During the next turn, reduce your Resource Dice total by 4. The failure also causes you to take a –1 circumstance penalty to Loyalty-based checks until the end of the next Kingdom turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "prompt": "Choose the result of Celebrate Holiday.",
+        "flag": "dos",
+        "choices": [
+          {
+            "value": "cs",
+            "label": "Critical Success"
+          },
+          {
+            "value": "s",
+            "label": "Success"
+          },
+          {
+            "value": "f",
+            "label": "Failure"
+          },
+          {
+            "value": "cf",
+            "label": "Critical Failure"
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "loyalty-based",
+        "type": "circumstance",
+        "value": 2,
+        "predicate": [
+          {
+            "eq": [
+              "cs",
+              "{item|flags.pf2e.rulesSelections.dos}"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "loyalty-based",
+        "type": "circumstance",
+        "value": 1,
+        "predicate": [
+          {
+            "eq": [
+              "s",
+              "{item|flags.pf2e.rulesSelections.dos}"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "loyalty-based",
+        "type": "circumstance",
+        "value": -1,
+        "predicate": [
+          {
+            "eq": [
+              "cf",
+              "{item|flags.pf2e.rulesSelections.dos}"
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "systems/pf2e/icons/spells/color-spray.webp",
+  "folder": "O10p5PnsmLcF6N6r",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025827,
+    "modifiedTime": 1778781025832,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "uJX5B1noWxq9qXCe",
+  "ownership": {
+    "default": 0,
+    "HRPzo3EuvoLGm5jG": 3
+  },
+  "sort": 0,
+  "_key": "!items!uJX5B1noWxq9qXCe"
+}

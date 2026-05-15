@@ -1,0 +1,66 @@
+{
+  "folder": "FZEvFrJOiIZh1G0f",
+  "img": "systems/pf2e/icons/default-icons/campaignFeature.svg",
+  "name": "Recover Army (VK)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "campaign": "kingmaker",
+    "category": "kingdom-activity",
+    "description": {
+      "value": "<p>When an army endures ill fortune, it can become afflicted by negative conditions. You can use the Recover Army activity to work at removing an affliction with a basic skill check (this DC increases by 5 if you are attempting to Recover from the defeated condition); the skill required for the check depends on the affliction (see the table on page 569).</p><p><strong>Damaged</strong>: @Check[defense|dc:resolve(@kingdom.control.dc)] @Check[folkore|dc:resolve(@kingdom.control.dc)] (expert)</p><p><strong>Defeated</strong>: @Check[politics|dc:resolve(@kingdom.control.dc+5)] (master) @Check[warfare|dc:resolve(@kingdom.control.dc+5)] (expert)</p><p><strong>Lost</strong>: @Check[exploration|dc:resolve(@kingdom.control.dc)] @Check[wilderness|dc:resolve(@kingdom.control.dc)] (expert)</p><p><strong>Mired</strong> or <strong>Pinned</strong>: @Check[engineering|dc:resolve(@kingdom.control.dc)] @Check[magic|dc:resolve(@kingdom.control.dc)] (expert)</p><p><strong>Shaken</strong>: @Check[arts|dc:resolve(@kingdom.control.dc)] @Check[warfare|dc:resolve(@kingdom.control.dc)] (expert)</p><p><strong>Weary</strong>: @Check[arts|dc:resolve(@kingdom.control.dc)] (expert) @Check[defense|dc:resolve(@kingdom.control.dc)]</p><hr><p><strong>Critical Success</strong> You reduce the affliction's value by 2 (or in the case of a damaged army, increase its HP by 2 up to its maximum). If the affliction does not have a value, it is removed.</p><p><strong>Success</strong> As critical success but you reduce the affliction's value by 1 (or in the case of a damaged army, increase its HP by 1 up to its maximum).</p><p><strong>Failure</strong> You fail to remove the affliction.</p><p><strong>Critical Failure</strong> You fail to remove the affliction and your soldier's lowered morale spreads discontent; increase Unrest by 1. If you were attempting to recover a defeated army, the army is destroyed.</p>",
+      "gm": ""
+    },
+    "location": null,
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Kingmaker",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "value": [
+        "army",
+        "downtime"
+      ],
+      "otherTags": []
+    },
+    "slug": "recover-army",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 1
+    }
+  },
+  "type": "campaignFeature",
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025817,
+    "modifiedTime": 1778781025829,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "oEqRpTYrIgSYUpTU",
+  "ownership": {
+    "default": 0,
+    "HRPzo3EuvoLGm5jG": 3
+  },
+  "sort": 0,
+  "_key": "!items!oEqRpTYrIgSYUpTU"
+}

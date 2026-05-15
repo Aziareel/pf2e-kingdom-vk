@@ -1,0 +1,158 @@
+{
+  "name": "Improved Lifestyle",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "14.361",
+        "system": "8.1.2"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Critical Success</strong> Your push to Improve Lifestyles affords your citizens significant free time to pursue recreational activities. For the remainder of the Kingdom turn, you gain a +2 circumstance bonus to Culture-based checks.</p><p><strong>Success</strong> Your push to Improve Lifestyles helps your citizens enjoy life. For the remainder of the Kingdom turn, you gain a +1 circumstance bonus to Culture-based checks.</p><p><strong>Failure</strong> As success, but you've strained your treasury. Take a –1 circumstance penalty to Economy-based checks for the remainder of this Kingdom turn.</p><p><strong>Critical Failure</strong> Your attempt to Improve Lifestyles backfires horribly as criminal elements in your kingdom abuse your generosity. You take a –1 circumstance penalty to Economy-based checks for the remainder of the Kingdom turn, gain 1 Unrest, and add 1 to a Ruin of your choice.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "prompt": "Choose the result of Improve Lifestyle.",
+        "flag": "dos",
+        "choices": [
+          {
+            "value": "cs",
+            "label": "Critical Success"
+          },
+          {
+            "value": "s",
+            "label": "Success"
+          },
+          {
+            "value": "f",
+            "label": "Failure"
+          },
+          {
+            "value": "cf",
+            "label": "Critical Failure"
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "culture-based",
+        "type": "circumstance",
+        "value": 2,
+        "predicate": [
+          {
+            "eq": [
+              "cs",
+              "{item|flags.pf2e.rulesSelections.dos}"
+            ]
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "culture-based",
+        "type": "circumstance",
+        "value": 1,
+        "predicate": [
+          {
+            "or": [
+              {
+                "eq": [
+                  "s",
+                  "{item|flags.pf2e.rulesSelections.dos}"
+                ]
+              },
+              {
+                "eq": [
+                  "f",
+                  "{item|flags.pf2e.rulesSelections.dos}"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "economy-based",
+        "type": "circumstance",
+        "value": -1,
+        "predicate": [
+          {
+            "or": [
+              {
+                "eq": [
+                  "f",
+                  "{item|flags.pf2e.rulesSelections.dos}"
+                ]
+              },
+              {
+                "eq": [
+                  "cf",
+                  "{item|flags.pf2e.rulesSelections.dos}"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "systems/pf2e/icons/spells/phantom-crowd.webp",
+  "folder": "O10p5PnsmLcF6N6r",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025827,
+    "modifiedTime": 1778781025833,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "4gD0GSZKAMJXAlM7",
+  "ownership": {
+    "default": 0,
+    "HRPzo3EuvoLGm5jG": 3
+  },
+  "sort": 0,
+  "_key": "!items!4gD0GSZKAMJXAlM7"
+}

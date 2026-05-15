@@ -1,0 +1,66 @@
+{
+  "folder": "o30y42eaoRcAa2Dj",
+  "img": "systems/pf2e/icons/default-icons/campaignFeature.svg",
+  "name": "Hire Adventurers (VK)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "campaign": "kingmaker",
+    "category": "kingdom-activity",
+    "description": {
+      "value": "<p>While the PCs can strike out themselves to deal with ongoing events, it's often more efficient to Hire Adventurers. When you Hire Adventurers @Check[exploration] to help end an ongoing event, the DC is equal to your Control DC adjusted by the event's level modifier. Roll 1 Resource Die and spend RP equal to the result each time you attempt this activity.</p><p>Practical Magic: 1 RP</p><hr><p><strong>Critical Success</strong> You end the continuous event.</p><p><strong>Success</strong> The continuous event doesn't end, but you gain a +2 circumstance bonus to resolve the event during the next Event phase.</p><p><strong>Failure</strong> You fail to end the continuous event. If you try to end the continuous event again, the cost in RP increases to 2 Resource Dice.</p><p><strong>Critical Failure</strong> As failure, but word spreads quickly through the region—you can no longer attempt to end this continuous event by Hiring Adventurers.</p>",
+      "gm": ""
+    },
+    "location": null,
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Kingmaker",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "value": [
+        "downtime",
+        "leadership"
+      ],
+      "otherTags": []
+    },
+    "slug": "hire-adventurers",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 1
+    }
+  },
+  "type": "campaignFeature",
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025823,
+    "modifiedTime": 1778781025831,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "HpUjzHvJaCpAo45Z",
+  "ownership": {
+    "default": 0,
+    "HRPzo3EuvoLGm5jG": 3
+  },
+  "sort": 0,
+  "_key": "!items!HpUjzHvJaCpAo45Z"
+}

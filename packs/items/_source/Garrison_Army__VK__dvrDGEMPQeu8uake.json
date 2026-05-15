@@ -1,0 +1,66 @@
+{
+  "folder": "FZEvFrJOiIZh1G0f",
+  "img": "systems/pf2e/icons/default-icons/campaignFeature.svg",
+  "name": "Garrison Army (VK)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "campaign": "kingmaker",
+    "category": "kingdom-activity",
+    "description": {
+      "value": "<p>You move an army into a fortification and assign them to guard it. In order to garrison, the army must be located in a hex that contains a Refuge, Settlement, or Work Site. If you're garrisoning the army in a Refuge hex, attempt a basic @Check[defense|dc:resolve(@kingdom.control.dc)] check. If you're garrisoning the army in a settlement, attempt a basic @Check[politics|dc:resolve(@kingdom.control.dc)] check. If you're garrisoning the army in a Work Site hex, attempt a basic @Check[engineering|dc:resolve(@kingdom.control.dc)] check. This check's DC increases by 5 if the hex is not part of your kingdom, or by 10 if the location is part of an enemy kingdom.</p><p>@Check[defense|dc:resolve(@kingdom.control.dc+5)]@Check[defense|dc:resolve(@kingdom.control.dc+10)]</p><p>@Check[politics|dc:resolve(@kingdom.control.dc+5)]@Check[politics|dc:resolve(@kingdom.control.dc+10)]</p><p>@Check[engineering|dc:resolve(@kingdom.control.dc+5)]@Check[engineering|dc:resolve(@kingdom.control.dc+10)]</p><hr><p><strong>Critical Success</strong> The army becomes fortified until it is deployed. Additionally, the efficiency of the garrisoning reduces this army's Consumption by 2 (to a minimum of 1) until it is deployed.</p><p><strong>Success</strong> The army becomes fortified until it is deployed.</p><p><strong>Failure</strong> The army becomes fortified until the next Kingdom turn begins, at which point you must use this activity again to maintain the fortified condition.</p><p><strong>Critical Failure</strong> Your army clashes with local citizens, abuses their authority, lets their watchful readiness slack, and/or provokes confrontations where they are not needed. It does not become fortified, and you cannot attempt to garrison that army at this location again for 4 Kingdom turns. Increase Unrest by 1.</p>",
+      "gm": ""
+    },
+    "location": null,
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Kingmaker",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "value": [
+        "army",
+        "downtime"
+      ],
+      "otherTags": []
+    },
+    "slug": "garrison-army",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 1
+    }
+  },
+  "type": "campaignFeature",
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025818,
+    "modifiedTime": 1778781025829,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "dvrDGEMPQeu8uake",
+  "ownership": {
+    "default": 0,
+    "HRPzo3EuvoLGm5jG": 3
+  },
+  "sort": 0,
+  "_key": "!items!dvrDGEMPQeu8uake"
+}

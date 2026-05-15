@@ -1,0 +1,87 @@
+{
+  "folder": "B9jSagLtunDNvw6V",
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "name": "Practical Magic (VK)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "campaign": "kingmaker",
+    "category": "kingdom-feat",
+    "description": {
+      "value": "<p>Magic has an honored place in your society, and your people incorporate it into their everyday work to make life easier. You gain a +1 status bonus to Magic checks, and you can use Magic checks in place of Engineering checks. In addition, as magic-wielding NPCs find your nation a comfortable place to live and work, you reduce the cost of using the Hire Adventurers activity to 1 RP.</p>",
+      "gm": ""
+    },
+    "level": {
+      "value": 1
+    },
+    "location": null,
+    "prerequisites": {
+      "value": [
+        {
+          "value": "trained in Magic"
+        }
+      ]
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Kingmaker",
+      "authors": ""
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "magic",
+        "type": "status",
+        "value": "match(when(btwn(@actor.campaign.level, 1, 7), 2), when(btwn(@actor.campaign.level, 8, 15), 3), when(gte(@actor.campaign.level, 16), 4))"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "engineering",
+        "value": "match(when(btwn(@actor.campaign.skills.magic.rank, 2, 2), 1), when(gte(@actor.campaign.skills.magic.rank, 3), 2))",
+        "type": "circumstance"
+      }
+    ],
+    "traits": {
+      "value": [
+        "general",
+        "kingdom"
+      ],
+      "otherTags": []
+    },
+    "slug": "practical-magic",
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "14.361",
+        "system": "8.1.2"
+      }
+    }
+  },
+  "type": "campaignFeature",
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025828,
+    "modifiedTime": 1778781025833,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "4oOYYgtKIwXzr0y9",
+  "ownership": {
+    "default": 0,
+    "HRPzo3EuvoLGm5jG": 3
+  },
+  "sort": 0,
+  "_key": "!items!4oOYYgtKIwXzr0y9"
+}

@@ -1,0 +1,70 @@
+{
+  "folder": "o30y42eaoRcAa2Dj",
+  "name": "Spread The Legend (VK)",
+  "type": "campaignFeature",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "14.361",
+        "system": "8.1.2"
+      }
+    },
+    "description": {
+      "value": "<p>Linzi works to spread the word of the party's heroics and achievements, both through word of mouth and by distributing chapbooks or one-sheets detailing their exploits. Attempt a basic @Check[arts|dc:resolve(@kingdom.control.dc)] check.</p><hr><p><strong>Critical Success</strong> Not only do Linzi's stories bring pride and patriotism to the nation, but they also help increase its glory. Reduc Unrest by 1d6, and at the start oft the next Kingdom turn, gain one bonus Fame. In addition, if the kingdom experiences a dangerous random event during this turn's Event Phase, reduce that event's level modifier by 1.</p><p><strong>Success</strong> The rousing and inspiring stories Linzi spreads about the PCs helps to bring the nation together. Reduce Unrest by 1d6.</p><p><strong>Failure</strong> Linzi avoids sprading unfortunate news, but only just barely. The citizens are only slighty entertained by their leader's exploits. Reduce Unrest by 1.</p><p><strong>Critical Failure</strong> Linzi accidently spreads news of a humiliating or embarrassing nature, causing the people of the kingdom to lose respect for their leaders. Increase Unrest by 1d4.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "spread-the-legend",
+    "traits": {
+      "value": [
+        "downtime",
+        "leadership"
+      ],
+      "otherTags": []
+    },
+    "campaign": "kingmaker",
+    "category": "kingdom-activity",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "systems/pf2e/icons/default-icons/campaignFeature.svg",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025821,
+    "modifiedTime": 1778781025830,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "br2uumMhEJuc4XRE",
+  "ownership": {
+    "default": 0,
+    "HRPzo3EuvoLGm5jG": 3
+  },
+  "sort": 0,
+  "_key": "!items!br2uumMhEJuc4XRE"
+}

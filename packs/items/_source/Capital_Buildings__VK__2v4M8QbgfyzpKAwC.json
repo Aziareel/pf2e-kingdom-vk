@@ -1,0 +1,127 @@
+{
+  "name": "Capital Buildings (VK)",
+  "type": "campaignFeature",
+  "system": {
+    "campaign": "kingmaker",
+    "category": "kingdom-feat",
+    "description": {
+      "value": "<p>1x Town Hall: +1 Item Bonus to Manage Trade Agreements</p><p>1x Mill: +1 Item Bonus to Harvest Crops</p><p>1x Inn: +1 Item Bonus to Hire Adventurers + Clear Hex (Exploration)</p><p>1x Jail: +1 Item Bonus to Quell Unrest (Intrigue)</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "kingdom-check",
+        "value": 1,
+        "type": "item",
+        "label": "Town Hall",
+        "predicate": [
+          "action:manage-trade-agreements"
+        ],
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Mill",
+        "selector": "kingdom-check",
+        "value": 1,
+        "predicate": [
+          "action:harvest-crops"
+        ],
+        "type": "item",
+        "hideIfDisabled": true
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Inn",
+        "value": 1,
+        "selector": [
+          "kingdom-check"
+        ],
+        "type": "item",
+        "predicate": [
+          {
+            "or": [
+              "action:hire-adventurers",
+              {
+                "and": [
+                  "action:clear-hex",
+                  "check:statistic:exploration"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "label": "Jail",
+        "value": 1,
+        "type": "item",
+        "selector": [
+          "kingdom-check"
+        ],
+        "predicate": [
+          "action:quell-unrest",
+          "check:statistic:intrigue"
+        ]
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "value": [
+        "kingdom"
+      ],
+      "otherTags": []
+    },
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "14.361",
+        "system": "8.1.2"
+      }
+    },
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "effects": [],
+  "img": "systems/pf2e/icons/default-icons/feats.webp",
+  "folder": "B9jSagLtunDNvw6V",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025828,
+    "modifiedTime": 1778781025834,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "2v4M8QbgfyzpKAwC",
+  "ownership": {
+    "default": 0,
+    "HRPzo3EuvoLGm5jG": 3
+  },
+  "sort": 0,
+  "_key": "!items!2v4M8QbgfyzpKAwC"
+}

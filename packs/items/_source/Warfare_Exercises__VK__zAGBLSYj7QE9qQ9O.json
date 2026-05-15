@@ -1,0 +1,70 @@
+{
+  "folder": "o30y42eaoRcAa2Dj",
+  "name": "Warfare Exercises (VK)",
+  "type": "campaignFeature",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "14.361",
+        "system": "8.1.2"
+      }
+    },
+    "description": {
+      "value": "<p>Valerie spends time studying the nation's armies, speaking with its commanders, researching historical records of battles, and running simulations in war rooms to help predict the best ways to prepare for upcoming conflicts. Attempt a basic Attempt a basic @Check[warfare|dc:resolve(@kingdom.control.dc)] check to determine the success of these exercises.</p><hr><p><strong>Critical Success</strong> The exercises reveal a wide range of suggestions to the PCs to use during that month's military exercises. All Army activities taken during this Kingdom turn's Activity Phase gain a +1 circumstance bonus. This bonus increases to +2 at Kingdom level 9 and +3 at Kingdom level 15. In addition, the next time this Kingdom turn that you roll a critical failure on an Army activity, the result is improved to a regular failure instead.</p><p><strong>Success</strong> The exercises grant a +1 circumstance bonus to your first Army activity taken during the Kingdom turn's Activity Phase. This bonus increases to +2 at Kingdom Level 9 and +3 at Kingdom Level 15.</p><p><strong>Failure</strong> The warfare exercises provide no insight this turn.</p><p><strong>Critical Failure</strong> You accidentally form incorrect assumptions about your military tactics. The next time you roll a failure on an Army activity this Kingdom turn, it becomes a critical failure instead.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [],
+    "slug": "spread-the-legend",
+    "traits": {
+      "value": [
+        "downtime",
+        "leadership"
+      ],
+      "otherTags": []
+    },
+    "campaign": "kingmaker",
+    "category": "kingdom-activity",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "systems/pf2e/icons/default-icons/campaignFeature.svg",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025825,
+    "modifiedTime": 1778781025832,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "zAGBLSYj7QE9qQ9O",
+  "ownership": {
+    "default": 0,
+    "HRPzo3EuvoLGm5jG": 3
+  },
+  "sort": 0,
+  "_key": "!items!zAGBLSYj7QE9qQ9O"
+}

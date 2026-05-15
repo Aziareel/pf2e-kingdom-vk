@@ -1,0 +1,26 @@
+{
+  "id": "pf2e-kingdom-vk",
+  "title": "PF2e Kingdom (VK)",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Aziareel"
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/Aziareel/pf2e-kingdom-vk/main/module.json",
+  "download": "https://github.com/Aziareel/pf2e-kingdom-vk/releases/latest/download/module.zip",
+  "packs": [
+    {
+      "name": "items",
+      "label": "Kingdom (VK)",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "pf2e"
+    }
+  ],
+  "license": "MIT"
+}

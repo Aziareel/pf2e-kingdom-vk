@@ -1,0 +1,66 @@
+{
+  "folder": "o30y42eaoRcAa2Dj",
+  "img": "systems/pf2e/icons/default-icons/campaignFeature.svg",
+  "name": "Rest and Relax (VK)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "campaign": "kingmaker",
+    "category": "kingdom-activity",
+    "description": {
+      "value": "<p>Working non-stop can burn out even the most devoted and dedicated individual. As such, it's important to take time for yourself, and thus set a good example for the nation. You take time to relax, and you extend the chance to unwind to your citizens as well. The Kingdom skill you use to determine the effectiveness of your time off depends on how you want to spend it: Use a basic @Check[arts|dc:resolve(@kingdom.control.dc)] check to spend the time engaged in entertainment or the pursuit of a hobby. Use a basic @Check[boating|dc:resolve(@kingdom.control.dc)] check to enjoy trips on the lakes and rivers of your kingdom. Use a basic @Check[scholarship|dc:resolve(@kingdom.control.dc)] check to spend the time reading or studying a topic of personal interest beyond your daily duties. Use a basic @Check[trade|dc:resolve(@kingdom.control.dc)] check to spend your time shopping or feasting. Use a basic Wilderness check to get away from the bustle and relax in the countryside. If your kingdom Rested and Relaxed the previous Kingdom turn, the DC increases by 4, as your kingdom's production and output hasn't had a chance to catch up to all those vacation days. </p><p>@Check[arts|dc:resolve(@kingdom.control.dc+4)]<br>@Check[boating|dc:resolve(@kingdom.control.dc+4)]<br>@Check[scholarship|dc:resolve(@kingdom.control.dc+4)]<br>@Check[trade|dc:resolve(@kingdom.control.dc+4)]</p><p>Octavia: @Check[magic|dc:resolve(@kingdom.control.dc)]@Check[magic|dc:resolve(@kingdom.control.dc+4)] </p><hr><p><strong>Critical Success</strong> The citizens enjoy the time off and are ready to get back to work. Reduce Unrest by 1, and the next Leadership activity you take gains a +2 circumstance bonus.</p><p><strong>Success</strong> The time spent relaxing has calmed nerves; reduce Unrest by 1.</p><p><strong>Failure</strong> The rest is welcome, but not particularly beneficial in the long term.</p><p><strong>Critical Failure</strong> The time is wasted, and when you get back to work, you have to spend extra time catching up. Take a –2 circumstance penalty to your next skill check made as a Leadership activity.</p>",
+      "gm": ""
+    },
+    "location": null,
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Kingmaker",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "value": [
+        "downtime",
+        "leadership"
+      ],
+      "otherTags": []
+    },
+    "slug": "rest-and-relax",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 1
+    }
+  },
+  "type": "campaignFeature",
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025822,
+    "modifiedTime": 1778781025831,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "HqRtGc8is9aeol1f",
+  "ownership": {
+    "default": 0,
+    "HRPzo3EuvoLGm5jG": 3
+  },
+  "sort": 0,
+  "_key": "!items!HqRtGc8is9aeol1f"
+}

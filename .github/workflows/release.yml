@@ -1,0 +1,44 @@
+name: Release Foundry V14 Module
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install CLI
+        run: npm install -g @foundryvtt/foundryvtt-cli
+
+      - name: Pack LevelDB
+        run: |
+          mkdir -p /tmp/foundrydata
+          fvtt configure set dataPath "/tmp/foundrydata"
+          for d in packs/* ; do
+            if [ -d "$d/_source" ]; then
+              packname=$(basename "$d")
+              fvtt package pack -n "$packname" --in "./packs/$packname/_source" --out "./packs/$packname"
+            fi
+          done
+
+      - name: Create Release Zip
+        run: zip -r module.zip . -x ".*" -x "*/.*" -x "packs/*/_source/*"
+
+      - name: Release to GitHub
+        uses: softprops/action-gh-release@v2
+        with:
+          files: module.zip
+          generate_release_notes: true

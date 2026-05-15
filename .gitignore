@@ -1,0 +1,10 @@
+# Ignore LevelDB binaries
+packs/**/CURRENT
+packs/**/LOCK
+packs/**/LOG*
+packs/**/MANIFEST*
+packs/**/*.ldb
+packs/**/*.log
+
+# Keep the JSON sources
+!packs/**/_source/

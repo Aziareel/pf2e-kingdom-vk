@@ -1,0 +1,66 @@
+{
+  "folder": "b6GBGET2JpNrStDG",
+  "img": "systems/pf2e/icons/default-icons/campaignFeature.svg",
+  "name": "Establish Settlement (VK)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "campaign": "kingmaker",
+    "category": "kingdom-activity",
+    "description": {
+      "value": "<p><strong>Requirements</strong> The hex in which you're establishing the settlement has been Cleared and doesn't currently have a settlement (including a Freehold) in it.</p><hr><p>You draw up plans, gather resources, entice citizens, and establish boundaries to found a brand new settlement in the hex. Attempt a basic @Check[engineering|dc:resolve(@kingdom.control.dc)], @Check[industry|dc:resolve(@kingdom.control.dc)] , @Check[politics|dc:resolve(@kingdom.control.dc)] , or @Check[scholarship|dc:resolve(@kingdom.control.dc)]  check. If you cannot pay the RP required by the result of this check, treat your result as a critical failure. A settlement always starts as a village. See page 540 for further details about building settlements.</p><hr><p><strong>Critical Success</strong> You establish the settlement largely with the aid of enthusiastic volunteers. Spend [[/r 1d6 #RP]]{1d6 RP}.</p><p><strong>Success</strong> You establish the settlement. Spend [[/r 3d6 #RP]]{3d6 RP}.</p><p><strong>Failure</strong> You establish the settlement, but inefficiently and at great expense. Spend [[/r 6d6 #RP]]{6d6 RP}.</p><p><strong>Critical Failure</strong> You fail to establish the settlement</p>",
+      "gm": ""
+    },
+    "location": null,
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Kingmaker",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "value": [
+        "downtime",
+        "region"
+      ],
+      "otherTags": []
+    },
+    "slug": "establish-settlement",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 1
+    }
+  },
+  "type": "campaignFeature",
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025825,
+    "modifiedTime": 1778781025832,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "koriGB8wBf5x5sLb",
+  "ownership": {
+    "default": 0,
+    "HRPzo3EuvoLGm5jG": 3
+  },
+  "sort": 0,
+  "_key": "!items!koriGB8wBf5x5sLb"
+}

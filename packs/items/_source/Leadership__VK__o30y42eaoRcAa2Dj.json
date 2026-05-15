@@ -1,0 +1,23 @@
+{
+  "type": "Item",
+  "folder": "awkIMusW1c1GUaPQ",
+  "name": "Leadership (VK)",
+  "color": "#548433",
+  "sorting": "a",
+  "_id": "o30y42eaoRcAa2Dj",
+  "description": "",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025815,
+    "modifiedTime": 1778781025815,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "_key": "!folders!o30y42eaoRcAa2Dj"
+}

@@ -1,0 +1,66 @@
+{
+  "folder": "o30y42eaoRcAa2Dj",
+  "img": "systems/pf2e/icons/default-icons/campaignFeature.svg",
+  "name": "Repair Reputation (Trained) (VK)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "campaign": "kingmaker",
+    "category": "kingdom-activity",
+    "description": {
+      "value": "<p>When things have gotten out of hand in the kingdom and the nation's reputation has become damaged, you can focus efforts on a campaign to reassure the citizens and bring them closer together, stamp down crime, organize repairs and maintenance of public structures, or strive to adjust poor public opinions. The skill used to Repair Reputation depends on which Ruin total you wish to reduce. If you wish to reduce your Corruption, you attempt an @Check[arts|dc:resolve(@kingdom.control.dc+2)] check. If you wish to reduce your Crime, you attempt a @Check[trade|dc:resolve(@kingdom.control.dc+2)] check. If you wish to reduce your Decay, you attempt an @Check[engineering|dc:resolve(@kingdom.control.dc+2)] check. If you wish to reduce your Strife, you attempt an @Check[intrigue|dc:resolve(@kingdom.control.dc+2)] check. In all cases, the DC is your Control DC + 2.</p><hr><p><strong>Critical Success</strong> You reduce the targeted Ruin by 2 and reduce its current ruin penalty by 1 to a minimum of 0.</p><p><strong>Success</strong> You reduce the targeted Ruin by 1.</p><p><strong>Failure</strong> You fail to reduce the targeted Ruin. You cannot attempt to Repair Reputation on this Ruin for 1 Kingdom turn.</p><p><strong>Critical Failure</strong> You fail to reduce the targeted Ruin in a particularly public and embarrassing way. Increase Unrest by 1d4, and you cannot attempt to Repair Reputation for 3 Kingdom turns.</p>",
+      "gm": ""
+    },
+    "location": null,
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Kingmaker",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "value": [
+        "downtime",
+        "leadership"
+      ],
+      "otherTags": []
+    },
+    "slug": "repair-reputation-trained",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 1
+    }
+  },
+  "type": "campaignFeature",
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025823,
+    "modifiedTime": 1778781025831,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "MKqH6IEsAoJ9TMgT",
+  "ownership": {
+    "default": 0,
+    "HRPzo3EuvoLGm5jG": 3
+  },
+  "sort": 0,
+  "_key": "!items!MKqH6IEsAoJ9TMgT"
+}

@@ -1,0 +1,66 @@
+{
+  "folder": "FZEvFrJOiIZh1G0f",
+  "img": "systems/pf2e/icons/default-icons/campaignFeature.svg",
+  "name": "Deploy Army (VK)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "campaign": "kingmaker",
+    "category": "kingdom-activity",
+    "description": {
+      "value": "<p>The army moves through your kingdom or beyond. Since this travel occurs over the course of the entire month that preceded the Kingdom turn, the ground an army covers when it deploys can be quite extensive. You can Deploy an Army with an @Check[exploration|dc:resolve(@kingdom.control.dc)], @Check[boating|dc:resolve(@kingdom.control.dc)], or @Check[magic|dc:resolve(@kingdom.control.dc)] check (master).</p><p>When you use an Exploration check, choose a location within 20 hexes of the army's current hex. If the army's starting point and ending point are connected by a road, increase the result one degree of success. Count roadless hexes that contain swamps or mountains, or each hex where you must cross a river or lake without the aid of a bridge, as two hexes. You can issue orders to force march. Doing so grants a +4 circumstance bonus on the check, but causes the army to increase its weary condition by 1 (or by 2, if you fail the check).</p><p>When you use a Boating check, the army's starting point and ending point must be connected by a body of water; choose any location within 20 hexes along this route.</p><p>You must be at least master in Magic to attempt a Magic check. When you do so, choose any location within 30 hexes of the army's current hex, then roll your check.</p><p>If the army's deployment causes it to cross your kingdom's border, the DC increases by 5. If the army's deployment causes it to cross an enemy kingdom's border, the DC instead increases by 10.</p><p>@Check[exploration|dc:resolve(@kingdom.control.dc+5)]@Check[exploration|dc:resolve(@kingdom.control.dc+10)]</p><p>@Check[boating|dc:resolve(@kingdom.control.dc+5)]@Check[boating|dc:resolve(@kingdom.control.dc+10)]</p><p>@Check[magic|dc:resolve(@kingdom.control.dc+5)]@Check[magic|dc:resolve(@kingdom.control.dc+10)]</p><hr><p><strong>Critical Success</strong> The army arrives much more quickly than you anticipated; it arrives at its destination and then becomes efficient.</p><p><strong>Success</strong> The army arrives at its destination.</p><p><strong>Failure</strong> The army arrives at its destination, but ran into some sort of trouble along the way. Increase the army's weary condition by 1 and attempt a @Check[flat|dc:6]; on a failure, reduce the army's HP by 1.</p><p><strong>Critical Failure</strong> Rather than arriving at its destination, the army becomes lost until it recovers from this condition. Increase Unrest by 1d4, and attempt a DC 11 flat check; on a failure, reduce the army's HP by 1.</p>",
+      "gm": ""
+    },
+    "location": null,
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Kingmaker",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "value": [
+        "army",
+        "downtime"
+      ],
+      "otherTags": []
+    },
+    "slug": "deploy-army",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 1
+    }
+  },
+  "type": "campaignFeature",
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025818,
+    "modifiedTime": 1778781025829,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "mzq5LgbQPM7WGpjh",
+  "ownership": {
+    "default": 0,
+    "HRPzo3EuvoLGm5jG": 3
+  },
+  "sort": 0,
+  "_key": "!items!mzq5LgbQPM7WGpjh"
+}

@@ -1,0 +1,66 @@
+{
+  "folder": "FZEvFrJOiIZh1G0f",
+  "img": "systems/pf2e/icons/default-icons/campaignFeature.svg",
+  "name": "Train Army (VK)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "campaign": "kingmaker",
+    "category": "kingdom-activity",
+    "description": {
+      "value": "<p>You train an army in the use of a tactic. Choose one of the tactics from those listed starting on page 575, then attempt a @Check[defense] or @Check[warfare] check against the tactic's Training DC. If your army has already learned its maximum number of tactics, the newly learned tactic replaces a previously learned tactic of your choice.</p><hr><p><strong>Critical Success</strong> The army learns the tactic and then becomes efficient.</p><p><strong>Success</strong> The army learns the tactic.</p><p><strong>Failure</strong> The army fails to learn the tactic.</p><p><strong>Critical Failure</strong> The army not only fails to learn the tactic but becomes frustrated and exhausted from the training; increase the army's weary condition by 1.</p>",
+      "gm": ""
+    },
+    "location": null,
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Kingmaker",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "value": [
+        "army",
+        "downtime"
+      ],
+      "otherTags": []
+    },
+    "slug": "train-army",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 1
+    }
+  },
+  "type": "campaignFeature",
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025817,
+    "modifiedTime": 1778781025829,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "YqtEdg8EoHFfD3AO",
+  "ownership": {
+    "default": 0,
+    "HRPzo3EuvoLGm5jG": 3
+  },
+  "sort": 0,
+  "_key": "!items!YqtEdg8EoHFfD3AO"
+}

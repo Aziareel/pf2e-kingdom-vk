@@ -1,0 +1,66 @@
+{
+  "folder": "b6GBGET2JpNrStDG",
+  "img": "systems/pf2e/icons/default-icons/campaignFeature.svg",
+  "name": "Establish Farmland (VK)",
+  "system": {
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "campaign": "kingmaker",
+    "category": "kingdom-activity",
+    "description": {
+      "value": "<p><strong>Requirements</strong> Plains or hills are the predominant terrain feature in the hex; the hex is in the influence of one of your settlements.</p><hr><p>You plant crops and establish livestock in permanent farms, ranches, and other growing operations to create Farmland. If you're attempting to Establish Farmland in a hex that is predominantly plains, you must spend 1 RP and the @Check[agriculture|dc:resolve(@kingdom.control.dc)] check is against your Control DC. If you're targeting a hex that is predominantly hills, you must spend 2 RP and the @Check[agriculture|dc:resolve(@kingdom.control.dc+5)]  check is against your Control DC + 5.</p><hr><p><strong>Critical Success</strong> You establish two adjacent Farmland hexes instead of one. If your target hex was a hills hex, the additional hex may be a hills hex or a plains hex; otherwise, the additional hex must be a plains hex. If no appropriate hex is available, treat this result as a regular success instead.</p><p><strong>Success</strong> You establish one Farmland hex.</p><p><strong>Failure</strong> You fail to establish a Farmland hex.</p><p><strong>Critical Failure</strong> You fail to establish a Farmland hex, and your attempt potentially causes the spread of a blight. At the start of each of the next two Event phases, attempt a @Check[flat|dc:6]; on a failure, your kingdom experiences a Crop Failure event in this and all adjacent hexes</p>",
+      "gm": ""
+    },
+    "location": null,
+    "prerequisites": {
+      "value": []
+    },
+    "publication": {
+      "license": "OGL",
+      "remaster": false,
+      "title": "Pathfinder Kingmaker",
+      "authors": ""
+    },
+    "rules": [],
+    "traits": {
+      "value": [
+        "downtime",
+        "region"
+      ],
+      "otherTags": []
+    },
+    "slug": "establish-farmland",
+    "_migration": {
+      "version": 0.959,
+      "previous": null
+    },
+    "level": {
+      "value": 1
+    }
+  },
+  "type": "campaignFeature",
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025826,
+    "modifiedTime": 1778781025832,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "effects": [],
+  "flags": {},
+  "_id": "Aea31014eY9LZoT5",
+  "ownership": {
+    "default": 0,
+    "HRPzo3EuvoLGm5jG": 3
+  },
+  "sort": 0,
+  "_key": "!items!Aea31014eY9LZoT5"
+}

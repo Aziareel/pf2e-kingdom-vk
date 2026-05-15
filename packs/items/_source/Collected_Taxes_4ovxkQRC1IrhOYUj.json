@@ -1,0 +1,103 @@
+{
+  "name": "Collected Taxes",
+  "type": "effect",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "14.361",
+        "system": "8.1.2"
+      }
+    },
+    "description": {
+      "value": "",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "prompt": "Choose the result of Tax Collection.",
+        "flag": "economyBonus",
+        "choices": [
+          {
+            "value": 2,
+            "label": "Critical Success"
+          },
+          {
+            "value": 1,
+            "label": "Success"
+          },
+          {
+            "value": 1,
+            "label": "Failure"
+          },
+          {
+            "value": 0,
+            "label": "Critical Failure"
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "economy-based",
+        "type": "circumstance",
+        "value": "{item|flags.pf2e.rulesSelections.economyBonus}",
+        "label": "Collect Taxes"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "otherTags": [],
+      "value": []
+    },
+    "level": {
+      "value": 1
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "unidentified": false,
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "badge": null,
+    "fromSpell": false,
+    "context": null
+  },
+  "img": "icons/commodities/currency/coins-assorted-mix-copper-silver-gold.webp",
+  "folder": "O10p5PnsmLcF6N6r",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025827,
+    "modifiedTime": 1778781025833,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "4ovxkQRC1IrhOYUj",
+  "ownership": {
+    "default": 0,
+    "HRPzo3EuvoLGm5jG": 3
+  },
+  "sort": 0,
+  "_key": "!items!4ovxkQRC1IrhOYUj"
+}

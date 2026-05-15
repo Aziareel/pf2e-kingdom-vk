@@ -1,0 +1,76 @@
+{
+  "name": "Kingdom Improvisation (VK)",
+  "type": "campaignFeature",
+  "effects": [],
+  "system": {
+    "_migration": {
+      "version": 0.959,
+      "previous": {
+        "schema": 0.954,
+        "foundry": "14.361",
+        "system": "8.1.2"
+      }
+    },
+    "description": {
+      "value": "<p><strong>Untrained Improvisation</strong> Your Kingdom has learned how to handle situations when it's out of its depth. Your proficiency bonus to untrained skill checks is equal to half your level instead of +0. If you're 7th level or higher, the bonus increases to your full level instead. This doesn't allow you to use the skill's trained actions.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "",
+      "authors": "",
+      "license": "OGL",
+      "remaster": false
+    },
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": [
+          "kingdom-check"
+        ],
+        "value": "ternary(gte(@kingdom.level, 7), @kingdom.level, floor(@kingdom.level/2))",
+        "type": "proficiency"
+      }
+    ],
+    "slug": null,
+    "traits": {
+      "value": [],
+      "otherTags": []
+    },
+    "campaign": "kingmaker",
+    "category": "kingdom-feat",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "location": null
+  },
+  "img": "icons/sundries/books/book-red-exclamation.webp",
+  "folder": "B9jSagLtunDNvw6V",
+  "flags": {},
+  "_stats": {
+    "coreVersion": "14.361",
+    "systemId": "pf2e",
+    "systemVersion": "8.1.2",
+    "createdTime": 1778781025828,
+    "modifiedTime": 1778781025833,
+    "lastModifiedBy": "HRPzo3EuvoLGm5jG",
+    "exportSource": null,
+    "compendiumSource": null,
+    "duplicateSource": null
+  },
+  "_id": "DCw2bsz7BvGqBAks",
+  "ownership": {
+    "default": 0,
+    "HRPzo3EuvoLGm5jG": 3
+  },
+  "sort": 0,
+  "_key": "!items!DCw2bsz7BvGqBAks"
+}
