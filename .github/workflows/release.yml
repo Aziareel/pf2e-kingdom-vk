@@ -30,7 +30,7 @@ jobs:
           for d in packs/* ; do
             if [ -d "$d/_source" ]; then
               packname=$(basename "$d")
-              fvtt package pack -n "$packname" --in "./packs/$packname/_source" --out "./packs/$packname"
+              fvtt package pack -n "$packname" --in "./packs/$packname/_source" --out "./packs"
             fi
           done
 
