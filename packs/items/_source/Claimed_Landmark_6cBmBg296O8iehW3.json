@@ -12,7 +12,7 @@
       }
     },
     "description": {
-      "value": "",
+      "value": "<p><strong>Landmark:</strong> A Landmark is a site of great pride, mystery, or wonder, such as an outcropping in the shape of a human face, a supernaturally ancient tree, or a lake with an unusual color. Adding Landmarks to a kingdom inspires its artists and bolsters kingdom morale. When the PCs add a Landmark hex to a kingdom, reduce Unrest by 1d4, and until the end of your next Kingdom turn, all Culture- and Economy-based skill checks gain a +2 circumstance bonus. When a kingdom claims its first Landmark hex, it gains 40 kingdom XP as a milestone award (page 45).</p>",
       "gm": ""
     },
     "publication": {
@@ -70,8 +70,6 @@
     "coreVersion": "14.361",
     "systemId": "pf2e",
     "systemVersion": "8.1.2",
-    "createdTime": 1778781025827,
-    "modifiedTime": 1778781025833,
     "lastModifiedBy": "HRPzo3EuvoLGm5jG",
     "exportSource": null,
     "compendiumSource": null,
@@ -79,8 +77,7 @@
   },
   "_id": "6cBmBg296O8iehW3",
   "ownership": {
-    "default": 0,
-    "HRPzo3EuvoLGm5jG": 3
+    "default": 0
   },
   "sort": 0,
   "_key": "!items!6cBmBg296O8iehW3"

@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  app:
+    image: mcr.microsoft.com/devcontainers/javascript-node:20
+    volumes:
+      - ..:/workspace:z # :z for SELinux compat
+    command: sleep infinity
+
+  foundry:
+    image: felddy/foundryvtt:14.361
+    user: "0:0"
+    hostname: foundry
+    ports:
+      - "30030:30000"
+    environment:
+      # Removed the duplicate hardcoded password
+      - FOUNDRY_USERNAME=${FOUNDRY_USERNAME}
+      - FOUNDRY_PASSWORD=${FOUNDRY_PASSWORD}
+      - FOUNDRY_ADMIN_KEY=admin
+    volumes:
+      - pf2e-kingdom-vk-data:/data
+      - ..:/data/Data/modules/pf2e-kingdom-vk:z
+    
+volumes:
+  pf2e-kingdom-vk-data:

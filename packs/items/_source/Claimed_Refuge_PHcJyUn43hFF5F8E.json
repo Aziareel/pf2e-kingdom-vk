@@ -12,7 +12,7 @@
       }
     },
     "description": {
-      "value": "",
+      "value": "<p><strong>Refuge:</strong> A Refuge is a place where people can shelter in safety, such as a hidden valley, a cave system, an isle in the middle of a river, or similar naturally defensible location that can be used as a safe fallback point, storage location, or even a guard post or prison. At the GM’s option, creature lairs may function as potential Refuges when claimed, provided the creatures that dwell there are defeated or allied with. When you claim a Refuge hex, reduce one of the kingdom’s Ruins by 1, and until the end of your next Kingdom turn, all Loyalty- and Stability-based skill checks gain a +2 circumstance bonus. When a kingdom claims its first Refuge hex, it gains 40 kingdom XP as a milestone award (page 45).</p>",
       "gm": ""
     },
     "publication": {
@@ -74,8 +74,6 @@
     "coreVersion": "14.361",
     "systemId": "pf2e",
     "systemVersion": "8.1.2",
-    "createdTime": 1778781025826,
-    "modifiedTime": 1778781025832,
     "lastModifiedBy": "HRPzo3EuvoLGm5jG",
     "exportSource": null,
     "compendiumSource": null,
@@ -83,8 +81,7 @@
   },
   "_id": "PHcJyUn43hFF5F8E",
   "ownership": {
-    "default": 0,
-    "HRPzo3EuvoLGm5jG": 3
+    "default": 0
   },
   "sort": 0,
   "_key": "!items!PHcJyUn43hFF5F8E"

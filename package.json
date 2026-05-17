@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "unpack": "fvtt package unpack -n \"items\" --in \"./packs\" --out \"./packs/items/_source\" && node clean.js",
+        "pack": "fvtt package pack -n \"items\" --in \"./packs/items/_source\" --out \"./packs\""
+    }
+}

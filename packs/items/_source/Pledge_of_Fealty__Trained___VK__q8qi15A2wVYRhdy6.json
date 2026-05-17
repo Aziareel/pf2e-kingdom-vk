@@ -47,8 +47,6 @@
     "coreVersion": "14.361",
     "systemId": "pf2e",
     "systemVersion": "8.1.2",
-    "createdTime": 1778781025824,
-    "modifiedTime": 1778781025831,
     "lastModifiedBy": "HRPzo3EuvoLGm5jG",
     "exportSource": null,
     "compendiumSource": null,
@@ -58,8 +56,7 @@
   "flags": {},
   "_id": "q8qi15A2wVYRhdy6",
   "ownership": {
-    "default": 0,
-    "HRPzo3EuvoLGm5jG": 3
+    "default": 0
   },
   "sort": 0,
   "_key": "!items!q8qi15A2wVYRhdy6"

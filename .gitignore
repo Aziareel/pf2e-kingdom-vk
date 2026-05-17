@@ -8,3 +8,7 @@ packs/**/*.log
 
 # Keep the JSON sources
 !packs/**/_source/
+!packs/**/_source/*
+
+# Better not forget this one
+.env

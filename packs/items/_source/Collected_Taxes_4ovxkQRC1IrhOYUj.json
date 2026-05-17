@@ -12,7 +12,7 @@
       }
     },
     "description": {
-      "value": "",
+      "value": "<p><strong>Critical Success</strong> Your tax collectors are wildly successful! For the remainder of the Kingdom turn, gain a +2 circumstance bonus to Economy-based checks.</p><p><strong>Success</strong> Your tax collectors gather enough to grant you a +1 circumstance bonus to Economy-based checks for the remainder of the Kingdom turn. If you attempted to Collect Taxes during the previous turn, increase Unrest by 1.</p><p><strong>Failure</strong> As success, but the people are unhappy about taxes—increase Unrest by 1 (or by 2 if you attempted to Collect Taxes the previous turn).</p><p><strong>Critical Failure</strong> Your tax collectors encounter resistance from the citizens and their attempts to gather taxes are rebuffed. While the tax collectors still manage to gather enough taxes to support essential government needs, they have angered the kingdom's citizens and encouraged rebellious acts. Increase Unrest by 2, and choose one Ruin to increase by 1.</p>",
       "gm": ""
     },
     "publication": {
@@ -86,8 +86,6 @@
     "coreVersion": "14.361",
     "systemId": "pf2e",
     "systemVersion": "8.1.2",
-    "createdTime": 1778781025827,
-    "modifiedTime": 1778781025833,
     "lastModifiedBy": "HRPzo3EuvoLGm5jG",
     "exportSource": null,
     "compendiumSource": null,
@@ -95,8 +93,7 @@
   },
   "_id": "4ovxkQRC1IrhOYUj",
   "ownership": {
-    "default": 0,
-    "HRPzo3EuvoLGm5jG": 3
+    "default": 0
   },
   "sort": 0,
   "_key": "!items!4ovxkQRC1IrhOYUj"

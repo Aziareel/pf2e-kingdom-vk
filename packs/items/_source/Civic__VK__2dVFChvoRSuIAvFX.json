@@ -12,12 +12,13 @@
     "coreVersion": "14.361",
     "systemId": "pf2e",
     "systemVersion": "8.1.2",
-    "createdTime": 1778781025814,
-    "modifiedTime": 1778781025814,
     "lastModifiedBy": "HRPzo3EuvoLGm5jG",
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null
   },
-  "_key": "!folders!2dVFChvoRSuIAvFX"
+  "_key": "!folders!2dVFChvoRSuIAvFX",
+  "ownership": {
+    "default": 0
+  }
 }
