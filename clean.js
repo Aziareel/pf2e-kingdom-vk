@@ -9,10 +9,11 @@ fs.readdirSync(directory).forEach(file => {
     const filePath = path.join(directory, file);
     const content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
-    // Remove Foundry v10+ nested timestamps
+    // Remove Foundry v10+ nested metadata that causes Git churn
     if (content._stats) {
         delete content._stats.createdTime;
         delete content._stats.modifiedTime;
+        delete content._stats.lastModifiedBy;
     }
 
     // Remove top-level timestamps
@@ -26,4 +27,4 @@ fs.readdirSync(directory).forEach(file => {
     fs.writeFileSync(filePath, JSON.stringify(content, null, 2) + '\n');
 });
 
-console.log('✨ Cleaned timestamps, reset ownership, and normalized formatting!');
+console.log('✨ Cleaned timestamps, reset ownership, stripped editor IDs, and normalized formatting!');
